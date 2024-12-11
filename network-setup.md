@@ -4,7 +4,7 @@
 
 Device Name: PC2
 Device model: PC-PT 
-IP adress 210.3.12.4
+IP adress 210.3.12.2
 Subnet mask: 255.255.255.0
 Default Gateway: 210.3.14.1
 DNS server: 8.8.8.8
@@ -26,7 +26,7 @@ FastEthernet0
 
 Device Name: Server1
 Device Model: Server-PT
-IP adress 210.3.14.2
+IP adress 210.3.14.4
 Subnet mask: 255.255.255.0
 Default Gateway: 210.3.14.1
 DNS server: 8.8.8.8
@@ -48,7 +48,7 @@ FastEthernet0
 
 Device Name: Laptop0
 Device Model: Laptop-PT
-IP adress 168.90.0.2
+IP adress 168.90.0.4
 Subnet mask: 255.255.0.0
 Default Gateway: 168.90.0.1
 DNS server: 8.8.8.8
@@ -60,7 +60,7 @@ FastEthernet0
 
 Device Name: PC0
 Device Model: PC-PT
-IP adress 168.90.0.4
+IP adress 168.90.0.3
 Subnet mask: 255.255.0.0
 Default Gateway: 168.90.0.1
 DNS server: 8.8.8.8
@@ -71,8 +71,30 @@ FastEthernet0
 
 Device Name: PC1
 Device Model: PC-PT
-IP adress 168.90.0.3
+IP adress 168.90.0.2
 Subnet mask: 255.255.0.0
+Default Gateway: 168.90.0.1
+DNS server: 8.8.8.8
+Port
+FastEthernet0
+
+------------------------------------------------------------------
+
+Device Name: PC3
+Device Model: PC-PT
+IP adress 168.90.0.6
+Subnet mask: 255.255.0.0
+Default Gateway: 210.3.14.1
+DNS server: 8.8.8.8
+Port
+FastEthernet0
+
+-----------------------------------------------------------------
+
+Device Name: PC4
+Device Model: PC-PT
+IP adress 210.3.14.5
+Subnet mask: 255.255.255.0
 Default Gateway: 168.90.0.1
 DNS server: 8.8.8.8
 Port
@@ -112,3 +134,13 @@ FastEthernet0/1 Up
 FastEthernet0/2 Up
 FastEthernet0/3 Up
 FastEthernet0/4 Up
+
+----------------------------------------------------------------
+Device Name: PC3
+Device Model: PC-PT
+IP adress 
+Subnet mask: 255.255.0.0
+Default Gateway: 168.90.0.1
+DNS server: 8.8.8.8
+Port
+FastEthernet0
